@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/style.css">
+ </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-warning">NodeFlex</a>
+
+            <!-- Hamburger Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Item -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#question" class="nav-link">FaQ</a></li>
+                    <li class="nav-item"><a href="#instructor" class="nav-link">Instructor</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Image -->
+    <div class="section bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <h1>Become a <span class="text-warning">Web Developer</span> </h1>
+                <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi velit fugit quibusdam?</p>
+
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">
+                    Start Enroll!
+                </button>
+            </div>
+            <img src="./img/showcase.svg" alt="" class="img-fluid w-50 d-none d-sm-block">
+        </div>
+    </div>
+    <!-- Message Box -->
+    <section class="bg-primary text-light p-5">
+        <div class="d-sm-flex justify-content-betweet align-items-center">
+            <h3 class="mb-3 mb-md-0"> Masukan Akun untuk mendapatkan info</h3>
+            <div class="input-group mb-3 news-input">
+                <input type="text" class="form-control" placeholder="Masukan Email Anda">
+                <button class="btn btn-dark btn-lg">Kirim</button>
+            </div>
+        </div>
+    </section>
+    <!-- Section Belajar Web 1 -->
+    <section>
+        <!-- card 1 -->
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light mt-5">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Sarana</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae laudantium obcaecati numquam?
+                            </p>
+                            <div class="btn btn-primary">Pelajari Lebih..</div>
+                        </div>
+                    </div>
+                </div>
+        <!-- card 2 -->
+                <div class="col-md">
+                    <div class="card bg-dark text-light mt-5">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Sarana</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae laudantium obcaecati numquam?
+                            </p>
+                            <div class="btn btn-primary">Pelajari Lebih..</div>
+                        </div>
+                    </div>
+                </div>
+        <!-- card 3 -->
+                <div class="col-md">
+                    <div class="card bg-dark text-light mt-5">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Sarana</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae laudantium obcaecati numquam?
+                            </p>
+                            <div class="btn btn-primary">Pelajari Lebih..</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Education Light-->
+    <section id="education" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="./img/fundamentals.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Belajar Fundamental Website</h2>
+                    <p class="lead">
+                        Disini kita belajar fundamental website menggunakan HTML, CSS, Javascript
+                    </p>
+                    <p class="lead">
+                        Disini kurikulumnya terstruktur sesuai standar industri Lorem ipsum, dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right">Pelajari lebih lanjut..</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Education Dark -->
+    <section id="education" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Belajar Fundamental Website</h2>
+                    <p class="lead">
+                        Disini kita belajar fundamental website menggunakan HTML, CSS, Javascript
+                    </p>
+                    <p class="lead">
+                        Disini kurikulumnya terstruktur sesuai standar industri Lorem ipsum, dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right">Pelajari lebih lanjut..</i>
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="./img/react.svg" alt="" class="img-fluid">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Question -->
+    <section id="question" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Question</h2>
+            <div class="accordion accordion-flush" id="question">
+                <!-- List Question -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                            Dimana Lokasi Node Flex?    
+                        </button>
+                        <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#question">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium possimus consequuntur consequatur impedit cupiditate quam asperiores molestiae dicta veniam praesentium!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                            Dimana Lokasi Node Flex?    
+                        </button>
+                        <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#question">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium possimus consequuntur consequatur impedit cupiditate quam asperiores molestiae dicta veniam praesentium!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                            Dimana Lokasi Node Flex?    
+                        </button>
+                        <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#question">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium possimus consequuntur consequatur impedit cupiditate quam asperiores molestiae dicta veniam praesentium!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+                            Dimana Lokasi Node Flex?    
+                        </button>
+                        <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#question">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium possimus consequuntur consequatur impedit cupiditate quam asperiores molestiae dicta veniam praesentium!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Instructor -->
+    <section id="instructor" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">Instruktur Kami</h2>
+            <p class="lead text-center text-white mb-5">
+                Instruktur kami adalah profesional dalam bidangnya
+            </p>
+            <div class="row g-4">
+                <!-- Card Box -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./img/dev1.jpg" alt="" class="rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Jonathan</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, laborum delectus.
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./img/dev2.jpg" alt="" class="rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Christina</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, laborum delectus.
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./img/dev3.jpg" alt="" class="rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Lewis</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, laborum delectus.
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./img/dev4.jpg" alt="" class="rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Abjiit</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, laborum delectus.
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Contact -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">
+                        Contact Info
+                    </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Lokasi Utama</span>
+                            Jalan Sultan Tirtayasa No.50
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment</span>
+                            12331233
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">No Contact</span>
+                            +62 9863965637
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span>
+                            ashay@ahiww.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.235473082869!2d107.58603281455004!3d-6.86235889504089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6bc912fcf1d%3A0x7f5904b9a6ab860c!2sGg.%20Cempaka%2C%20Gegerkalong%2C%20Kec.%20Sukasari%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1653302039853!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section Footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2022 <span class="text-warning">Node Flex</span>
+            </p>
+        </div>
+    </footer>
+    <!-- Tombol untuk kepaling atas -->
+    <div class="sticky-bottom">
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll"  tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enroll">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Isi Form berikut dan kami akan segera proses</p>
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="first-name">First Name: </label>
+                            <input type="text" class="form-control" id="first-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name">Last Name: </label>
+                            <input type="text" class="form-control" id="last-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">Email: </label>
+                            <input type="text" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone">Phone: </label>
+                            <input type="text" class="form-control" id="phone" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
