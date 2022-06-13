@@ -1,0 +1,17 @@
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+.rounded-circle {
+    border: none;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+#map {
+    width: 100%;
+    border-radius: 10px;
+}
